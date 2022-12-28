@@ -4,11 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "dead-server",
+    "dev": "dead-server --host=localhost --port=4209",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "html",
+    "space"
+  ],
+  "author": "Monika (https://github.com/MonikaJaraite)",
   "license": "ISC",
   "devDependencies": {
     "dead-server": "^1.0.9"
