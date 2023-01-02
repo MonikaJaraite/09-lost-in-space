@@ -7,17 +7,17 @@ header,
 main, 
 footer { 
     display: inline-block;
-    width: 800px; 
-    margin-left: calc(50% - 400px); 
+    width: 1000px; 
+    margin-left: calc(50% - 500px); 
     margin-bottom: 30px;
-    background-color: yellow; 
+    /* background-color: yellow; */
 } 
 
 header {
     margin-top: 40px;
 }
 
-img {
+header > img {
     width: 100px;
     height: 40px;
     float: left;
@@ -45,4 +45,58 @@ a:first-child {
 
 a:hover {
     text-decoration: underline;
+}
+
+main {
+}
+
+div {
+    width: 40%;
+    float: left;
+}
+
+h1 {
+    font-size: 50px;
+    color: #222222;
+    font-weight: normal;
+}
+h1 > span {
+    display:block;
+    font-weight: bold;
+}
+
+p {
+    font-size: 20px;
+}
+
+div > a {
+    float: left;
+    padding: 0.9em;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    background-color: #662c8c;
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.3em;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 1.7em;
+    border: 0.15em solid #662c8c;
+}
+
+div > a:last-child {
+    background-color: #fff;
+    color: #662c8c;
+}
+
+/* div > a:hover { */
+    div > a {
+    box-shadow: 0 5px 10px 0px rgba(red, green, blue, alpha) (0, 0, 0, 0.5);
+}
+
+main > img {
+    width: 55%;
+    float: right;
 }
