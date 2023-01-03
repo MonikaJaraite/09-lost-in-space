@@ -17,7 +17,8 @@ header {
     margin-top: 40px;
 }
 
-header > img {
+/* header > img { */
+.logo {
     width: 100px;
     height: 40px;
     float: left;
@@ -25,7 +26,8 @@ header > img {
     object-position: left;
 }
 
-nav {
+/* nav { */
+.main-menu {
     float: right;
     margin-top: 10px;
 }
@@ -50,12 +52,14 @@ a:hover {
 main {
 }
 
-main > div {
+/* main > div { */
+.left-colum {
     width: 40%;
     float: left;
 }
 
-h1 {
+/* h1 { */
+.main-title {
     font-size: 50px;
     color: #222222;
     font-weight: normal;
@@ -65,7 +69,8 @@ h1 > span {
     font-weight: bold;
 }
 
-div > p {
+/* div > p { */
+.description {
     font-size: 20px;
 }
 
