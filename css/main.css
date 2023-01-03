@@ -45,7 +45,7 @@ link:hover {
     text-decoration: underline;
 }
 
-.left-colum {
+.left-column {
     width: 40%;
     float: left;
 }
@@ -90,11 +90,11 @@ link:hover {
     box-shadow: 0 5px 10px 0px rgba(red, green, blue, alpha) (0, 0, 0, 0.5);
 }
 
-.right-colum {
+.right-column {
     width: 55%;
     float: right;
 }
-.right-colum > img {
+.right-column > img {
     width: 100%;
 }
 .right-column > .img-grey,
