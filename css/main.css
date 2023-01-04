@@ -23,7 +23,7 @@ body {
     object-position: left;
 }
 
-.main-menu > .link {
+.main-menu {
     float: right;
     margin-top: 10px;
 }
@@ -57,7 +57,7 @@ link:hover {
     position: relative;
 }
 .main-title > span {
-    display:block;
+    display: block;
     font-weight: bold;
 }
 .main-title::before {
