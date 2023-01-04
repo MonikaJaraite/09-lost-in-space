@@ -86,8 +86,8 @@ link:hover {
     color: #662c8c;
 }
 
-.button-hover {
-    box-shadow: 0 5px 10px 0px rgba(red, green, blue, alpha) (0, 0, 0, 0.5);
+.button:hover {
+    box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 .right-column {
